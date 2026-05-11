@@ -1,0 +1,5 @@
+.vscode/
+__pycache__/
+Custom_test/
+OCR_dataset/
+Models_Training/PlateDetector_Data_Preprocessing.ipynb
