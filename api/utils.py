@@ -206,7 +206,7 @@ def map_plate_text(plate_text: str):
 
     # Map each token, keep as is if not found
     mapped = [PLATE_MAP.get(token, token) for token in tokens]
-    # mapped.reverse()
+    mapped.reverse()
 
     arabic_text = " ".join(mapped)
     return arabic_text

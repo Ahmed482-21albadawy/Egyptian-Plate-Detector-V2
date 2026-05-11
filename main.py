@@ -8,7 +8,7 @@ from api.utils import (
     draw_detections
 )
 
-IMAGE_PATH = r"Custom_test\car10.jpg"         # path to input image
+IMAGE_PATH = r"Custom_test/plate.jpg"         # path to input image
 
 
 # IMAGE MODE
@@ -35,7 +35,6 @@ def run_image(image_path: str):
 
     # Draw and display
     annotated = draw_detections(image_path, detections, raw_text)
-    # annotated = cv2.imread(image_path)
     max_display = 900
     h, w        = annotated.shape[:2]
     if max(h, w) > max_display:
