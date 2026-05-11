@@ -8,7 +8,7 @@ from api.utils import (
     draw_detections
 )
 
-IMAGE_PATH = r"Custom_test/plate.jpg"         # path to input image
+IMAGE_PATH = r"Custom_test/plate.jpg"
 
 
 # IMAGE MODE
